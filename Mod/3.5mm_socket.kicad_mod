@@ -1,0 +1,94 @@
+(footprint "3.5mm_socket"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DC Barrel Jack")
+	(tags "Power Jack")
+	(property "Reference" "REF**"
+		(at -8.45 5.75 0)
+		(layer "F.SilkS")
+		(uuid "a09fccb2-f34f-4e24-b26d-c469d3dea1a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3.5mm_socket"
+		(at -10.01 2.755 0)
+		(layer "F.Fab")
+		(uuid "9906d966-06b9-40cd-a981-34423b639420")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f16e746a-0eed-489c-9c78-6ca6429e9b99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5677876-cf0a-4e73-9d61-0b92f7d62e51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" thru_hole rect
+		(at -4.1402 4.445 270)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8ffae8b-c37c-4898-a7e3-66087527b094")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 4.445 90)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "f06e321a-352d-4693-a94d-88226b5347eb")
+	)
+	(pad "MP" thru_hole roundrect
+		(at 0 -5.207)
+		(size 3.5 3.5)
+		(drill oval 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "0373b3a7-056d-493d-a359-e1d722b0ea11")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
